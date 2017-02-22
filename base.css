@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: monospace, consolas, san-serif;
+  
 }
 
 .wrapper {
@@ -54,4 +54,24 @@ h1 {
 i {
   font-family: monospace, consolas, sans-serif;
   font-size: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 400px;
+}
+
+h1, code {
+  font-family: monospace, consolas, san-serif;
+}
+
+code {
+  background: #ccc;
+  border-radius: 2px;
+  display: inline-block;
+  min-width: 100px;
+  text-align: center;
+  padding: 5px;
 }

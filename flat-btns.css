@@ -8,6 +8,13 @@
   border-radius: 2px;
   font-weight: 500;
   transition: all 200ms linear;
+  box-sizing: border-box;
+}
+
+a.flat__btns {
+  text-decoration: none;
+  line-height: 15px;
+  font-size: 12px;
 }
 
 .flat__btns:hover {
