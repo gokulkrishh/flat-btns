@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace, consolas, san-serif;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 50px auto;
+}
+
+.wrapper button,
+.wrapper div {
+  user-select: none;
+}
+
+.wrapper code {
+  user-select: initial;
+}
+
+button {
+  margin: 10px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 768px) {
+  .wrapper {
+    width: 650px;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .wrapper {
+    width: 400px;
+    flex-direction: column;
+  }
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    width: 900px;
+    flex-direction: column;
+  }
+}
+
+i {
+  font-family: monospace, consolas, sans-serif;
+  font-size: 12px;
+}
