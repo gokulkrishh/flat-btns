@@ -44,6 +44,7 @@ a.flat__btns {
 
 .flat__btns--raised {
   box-shadow: 1px 2px 5px  rgba(0, 0, 0, 0.29);
+  border: none;
 }
 
 .flat__btns--raised:active,

@@ -32,7 +32,6 @@ h1 {
 @media all and (max-width: 768px) {
   .wrapper {
     width: 650px;
-    flex-direction: column;
   }
 }
 
@@ -61,6 +60,7 @@ i {
   align-items: baseline;
   justify-content: space-between;
   width: 400px;
+  margin: 30px auto;
 }
 
 h1, code {
@@ -74,4 +74,40 @@ code {
   min-width: 100px;
   text-align: center;
   padding: 5px;
+}
+
+table {
+  background: #FFF;
+  border: 1px solid rgba(34,36,38,.15);
+  box-shadow: none;
+  border-radius: .28571429rem;
+  text-align: left;
+  color: rgba(0,0,0,.87);
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 1em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th {
+  cursor: auto;
+  background: #F9FAFB;
+  text-align: inherit;
+  color: rgba(0,0,0,.87);
+  padding: 10px;
+  vertical-align: inherit;
+  font-weight: 500;
+  text-transform: none;
+  border-bottom: 1px solid rgba(34,36,38,.1);
+  border-left: none;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+thead {
+  text-align: center;
 }
