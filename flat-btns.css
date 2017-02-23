@@ -9,6 +9,7 @@
   font-weight: 500;
   transition: all 200ms linear;
   box-sizing: border-box;
+  outline: 0;
 }
 
 a.flat__btns {
@@ -19,22 +20,37 @@ a.flat__btns {
 
 .flat__btns:hover {
   cursor: pointer;
-}
-
-.flat__btns:active {
-  outline: none;
+  background-color: #eee;
 }
 
 .flat__btns--success {
   color: #4caf50;
 }
 
+.flat__btns--success:hover {
+  border-color: #4caf50;
+  background-color: #43A047;
+  color: #fff;
+}
+
 .flat__btns--info {
   color: #2196f3;
 }
 
+.flat__btns--info:hover {
+  border-color: #2196f3;
+  background-color: #1E88E5;
+  color: #fff;
+}
+
 .flat__btns--danger {
   color: #FF5722;
+}
+
+.flat__btns--danger:hover {
+  border-color: #FF5722;
+  background-color: #F4511E;
+  color: #fff;
 }
 
 .flat__btns.flat__btns--disabled {
@@ -72,6 +88,11 @@ a.flat__btns {
 
 .flat__btns--dark {
   color: #fff;
+  background: #212121;
+  border-color: #222222;
+}
+
+.flat__btns--dark:hover {
   background: #212121;
   border-color: #222222;
 }
